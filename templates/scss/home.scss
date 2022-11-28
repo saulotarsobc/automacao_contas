@@ -1,22 +1,41 @@
-.btn {
-    background-color: cadetblue;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-}
+#wrap {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 
-label{
-    margin-left: 10px;
-    font-size: 20px;
-}
+    .btn {
+        background-color: cadetblue;
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px;
+    }
 
-input {
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 5px;
-    margin-bottom: 30px;
+    label {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    
+    .wrap_input {
+        width: 100vw;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+
+        input {
+            width: calc(100% - 10px);
+            font-size: 20px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        textarea {
+            width: calc(100% - 10px);
+            border-radius: 5px;
+            padding: 5px;
+        }
+    }
 }
