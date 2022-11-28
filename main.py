@@ -62,7 +62,7 @@ def home():
                 });
         }
         function sendCustonText() {
-            sendWord(custon_text.innerHTML);
+            sendWord(custon_text.value);
         }
     </script>
 </body>
