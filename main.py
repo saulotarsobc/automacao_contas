@@ -17,7 +17,6 @@ def home():
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atalhos Para as Contas</title>
-    <!-- <link rel="stylesheet" href="./css/main.css"> -->
     <style>*{margin:0;padding:0;box-sizing:border-box}#wrap{width:100vw;display:flex;flex-direction:column}#wrap .btn{background-color:#5f9ea0;color:#fff;border-radius:5px;font-size:20px;margin:5px;padding:5px}#wrap label{margin-left:10px;font-size:20px}#wrap .wrap_input{width:100vw;position:relative;align-items:center;justify-content:center;padding:10px}#wrap .wrap_input input{width:calc(100% - 10px);font-size:20px;border-radius:5px;padding:10px}#wrap .wrap_input textarea{width:calc(100% - 10px);border-radius:5px;padding:5px}</style>
 </head>
 
@@ -33,7 +32,7 @@ def home():
         </div>
         <div class="btn" onclick="sendWord('Donativos - Construcao da Filial')">Donativos - Construcao da Filial</div>
         <div class="btn" onclick="sendWord('Reajuste Monetario - BACEN')">Reajuste Monetario - BACEN</div>
-        <div class="btn" onclick="sendWord('Juros')">Juros</div>
+        <div class="btn" onclick="sendWord('Juros Bancarios')">Juros Bancarios</div>
         <hr>
         <div class="wrap_input">
             <label for="custon_text">Texto Customizado:</label>
@@ -62,7 +61,7 @@ def home():
                 });
         }
         function sendCustonText() {
-            sendWord(custon_text.value);
+            sendWord(custon_text.innerHTML);
         }
     </script>
 </body>
