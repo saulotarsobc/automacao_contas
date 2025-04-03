@@ -18,4 +18,4 @@ PyRect==0.2.0
 PyScreeze==0.1.28
 pytweening==1.0.4
 pywin32-ctypes==0.2.0
-Werkzeug==2.2.2
+Werkzeug==3.0.6
